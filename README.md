@@ -5,7 +5,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Installation
 
 Clone the repository:
-##### `git clone git@github.com:susanahan/bee-hive.git`
+##### `git clone git@github.com:susanahan/hive-chat.git`
 
 Navigate to the project directory:
 ##### `cd hive-chat-app`
