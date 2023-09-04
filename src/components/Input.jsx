@@ -18,14 +18,12 @@ import "../styles/Chat.scss";
 const Input = () => {
 	const [ text, setText ] = useState("");
 	const [ file, setFile ] = useState(null);
-	const [ err, setErr ] = useState("");
 
 	const { currentUser } = useContext(AuthContext);
 	const { data } = useContext(ChatContext);
 
 	const handleSend = async (event) => {
 		event.preventDefault();
-		setErr("");
 
 		if (data.chatId === "null") {
 			return alert("Find user first")
