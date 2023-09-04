@@ -1,7 +1,7 @@
-# Hive Chat App
+<img width="659" alt="image" src="https://github.com/susanahan/hive-chat/assets/31191268/6e0a5ca4-efac-4006-8613-574cb88b07b0">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).\
+You can also view it live [here.](https://hive-chat-app.netlify.app/)
 ## Installation
 
 Clone the repository:
@@ -25,6 +25,7 @@ You may also see any lint errors in the console.
 
 ## Environment Variables
 To successfully run this project, please ensure that the following environment variables are set:
+**you must have a .env file to set up these variables and a firebase account**
 
 FIREBASE_API_KEY: Your Firebase API key\
 FIREBASE_AUTH_DOMAIN: Your Firebase Authentication Domain\
