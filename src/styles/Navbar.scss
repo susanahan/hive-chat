@@ -1,0 +1,43 @@
+@use "assets/colors";
+@use "assets/mixins";
+
+.Navbar {
+	display: flex;
+	align-items: center;
+	background-color:  #FFF8E5;
+	height: 50px;
+	padding: 10px;
+	justify-content: space-between;
+	color: colors.$regular-yellow;
+
+	.logo {
+		font-weight: bold;
+		@include mixins.tablet {
+			display: none;
+		}
+	}
+	.user {
+		display: flex;
+		gap: 10px;
+
+		img {
+			background-color: colors.$logo-color;
+			height: 24px;
+			width: 24px;
+			border-radius: 50%;
+			object-fit: cover;
+		}
+
+		button {
+			background-color: #FFE9AB;  
+			color: navy;
+			font-size: 10px;
+			border: none;
+			cursor: pointer;
+			@include mixins.tablet {
+				position: absolute;
+				bottom: 10px;
+			}
+		}
+	}
+}
